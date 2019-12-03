@@ -7,7 +7,7 @@ Deploy from OSEv3.
 ## new project and blue app from master
 
     oc new-project bluegreen --display-name="Blue Green" --description='Blue Green Deployments'
-    oc new-app https://github.com/foundjem/blue-green.git#master --name=blue --strategy=sti
+    oc new-app https://github.com/foundjem/blue-green.git#master --name=blue --strategy=source
 
 ## expose bluegreen service (using blue)
 
